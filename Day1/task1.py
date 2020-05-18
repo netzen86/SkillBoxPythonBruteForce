@@ -26,7 +26,7 @@ def poll_all_sites(sites):
 
 
 if __name__ == "__main__":
-    sites = [ "https://www.python.org", "https://google.com", "https://uchi.ru"]
+    sites = [ "https://www.python.org", "https://google.com", "https://uchi.ru", "https://github.com/", "https://www.yaklass.ru/"]
     start_time = time.time()
     poll_all_sites(sites)
     duration = time.time() - start_time
