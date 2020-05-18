@@ -13,7 +13,7 @@ def set_global_session():
 
 def poll_site(url):
     retry = 0
-    while retry != 100:
+    while retry != 101:
         with session.get(url) as response:
             name = multiprocessing.current_process().name
             print(f"{name}:Site {url} response {response.status_code} try {retry}")
